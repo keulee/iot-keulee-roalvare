@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: wil-playground
   namespace: dev
-  label:
+  labels:
     app: wil-playground
 spec:
   replicas: 1
